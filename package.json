@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tensorflow-models/pose-detection": "^2.1.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.8.0",
+    "@tensorflow/tfjs-converter": "^4.8.0",
+    "@tensorflow/tfjs-core": "^4.8.0",
     "next": "13.4.9",
     "react": "18.2.0",
     "react-dom": "18.2.0"
