@@ -1,6 +1,6 @@
 import * as poseDetection from "@tensorflow-models/pose-detection";
 
-export async function createDetector() {
+export async function createMovenetDetector() {
   const detectorConfig = {
     modelType: poseDetection.movenet.modelType.SINGLEPOSE_LIGHTNING,
   };
